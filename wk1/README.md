@@ -15,13 +15,15 @@ There are technically two versions of WSL, WSL1 and WSL2. The default version no
 > wsl --install
 > ```
 
-Once Ubuntu is installed it should open a
+Once Ubuntu is installed, and you open it in your terminal, you should see something like this.
 ![Asdf](wk1-0.png)
 
+If you want to open another Ubuntu terminal, you can click the small downward arrow next to the + sign on the tab bar, and Ubuntu should be in the dropdown.
 
+Now, we have access to a Ubuntu (which is a Linux distribution) shell.
 
+## The shell
 
+Before our computers were powerful enough to render images and graphics like our computers do now, we only had text on a screen, which we called a *terminal user interface* (TUI) in contrast to a *graphical user interface* (GUI) as we have now. Therefore, all programs in a computer back then were purely text-based: you call the program with some input, and then you get back some output text in return. The terminal is essentially a way for us to run programs in this way, and is a really powerful tool. Now that we have our Ubuntu terminal, we can complete the following exercises.
 
-
-
-
+1. Type `pwd` and press enter. 
