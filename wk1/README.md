@@ -76,13 +76,24 @@ Some more exercises follow.
 4. Run `touch temp.txt`. Which part is the command? Which part is the argument? What does the command do when the given file doesn't exist?
 5. What does `mkdir` do? How do you use it?
 6. What does `rm` do? How do you use it?
+7. What does `mv` do? How do you use it?
 7. Provide a sequence of commands and a brief description of what each command does to accomplish the following steps:
 
     - Create a file structure similar to the one visualized at the top of this section, i.e. under `~`, create `Documents` and `Downloads` subdirectories, with `Folder1` and `Folder2` directories beneath those as shown.
     - Change current directory to home.
     - Change current directory to `Folder1` inside of `Documents` using a single command, with a *relative path*.
     - Change current directory to `Folder1` inside of `Downloads` using a single command, with an *absolute path*.
-    - Create a file called `file1.txt` inside `~/Downloads/Folder1`.
+    - Create a file called `file1.txt` inside our current directory.
+    - Create `file2.txt` inside our current directory.
+    - Move `file2.txt` to the parent directory.
     - Remove `file1.txt` (hint: use `man rm`)
     - Change current directory to the parent directory (i.e. `~/Downloads`) using a single relative path command (feel free to Google).
     - Remove the `Folder1` subdirectory (hint: if you get an error, try `man rm` and look for an additional argument to pass to remove directories).
+
+## Version control: Git and Github (in progress)
+
+### Git
+
+Like how Google Docs saves an edit history for our documents allowing us to go back to restore checkpoints at an earlier time in our document, we want to be able to do the same thing with our code projects. Hence, we use a version control system (VCS), and the most popular (and also probably effective) choice by far is Git, which is related to, but different from Github, which we will discuss later.
+
+Unlike Google Docs, however, checkpoints are made manually instead of automatically, and has a few layers of complexity. 
